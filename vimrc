@@ -105,28 +105,6 @@ set statusline+=%= " right align
 set statusline+=%-14.(%l,%c%V%)\ %<%P " offset
 
 
-" NERDTree CONFIGURATION
-
-" Enable nice colors
-let NERDChristmasTree = 1
-
-" Make it easy to see where we are
-let NERDTreeHighlightCursorline = 1
-
-" Make bookmarks visible
-let NERDTreeShowBookmarks = 1
-
-" Show hidden files
-let NERDTreeShowHidden = 1
-
-" Don't hijack NETRW
-let NERDTreeHijackNetrw = 0
-let NERDTreeIgnore=['\.$', '\~$']
-
-" Make F2 open NERDTree
-nmap <F2> :NERDTreeToggle<CR>
-
-
 " Search Config
 
 " show the `best match so far' as search strings are typed:
@@ -170,7 +148,7 @@ let NERDDefaultNesting = 0
 let NERDRemoveExtraSpaces = 1
 let NERDSpaceDelims = 1
 
-" NERDTree
+" NERDTree CONFIGURATION
 
 " Enable nice colors
 let NERDChristmasTree = 1
@@ -183,12 +161,13 @@ let NERDTreeShowBookmarks = 1
 
 " Show hidden files
 let NERDTreeShowHidden = 1
+
 " Don't hijack NETRW
 let NERDTreeHijackNetrw = 0
 let NERDTreeIgnore=['\.$', '\~$']
 
-" NeoComplCache
-" let g:NeoComplCache_EnableAtStartup=1
+" Make F2 open NERDTree
+nmap <F2> :NERDTreeToggle<CR>
 
 
 " AUTOCOMMANDS
