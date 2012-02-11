@@ -12,6 +12,8 @@ filetype plugin indent on
 set nocompatible
 syntax on
 
+" set spell spelllang=en_us
+
 " Disable bell.
 set vb t_vb=
 
@@ -23,13 +25,13 @@ set autoread
 " Explicitly set 256 color support
 " set t_Co=256
 
-colorscheme krunktastic " github256
+colorscheme github256 "krunktastic "github256
 
 " TEXT SETTINGS
 
 " Disable line wrapping
-set nowrap
-" set wrap
+" set nowrap
+set wrap
 
 " use indents of 2 spaces, and have them copied down lines:
 set expandtab
