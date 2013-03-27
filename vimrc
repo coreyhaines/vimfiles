@@ -4,8 +4,7 @@ call pathogen#runtime_append_all_bundles()
 " UTF-8 All the way
 scriptencoding utf-8
 
-" Use zsh.
-set shell=zsh
+set shell=bash
 
 " Enable filetype-specific indenting, syntax, and plugins
 filetype plugin indent on
@@ -19,6 +18,8 @@ set vb t_vb=
 
 " Set to auto read when a file is changed from the outside
 set autoread
+
+set formatprg=par
 
 " COLOR SUPPORT
 
@@ -168,6 +169,9 @@ let NERDTreeIgnore=['\.$', '\~$']
 
 " Make F2 open NERDTree
 nmap <F2> :NERDTreeToggle<CR>
+
+nnoremap <leader>h <Esc>:call EasyMode()<CR>
+nnoremap <leader>H <Esc>:call HardMode()<CR>
 
 
 " AUTOCOMMANDS

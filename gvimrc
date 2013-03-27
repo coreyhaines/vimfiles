@@ -1,5 +1,5 @@
 " Set the guifont
-  set guifont=Monaco:h14
+  set guifont=Monaco:h18
 
   set antialias
 
@@ -8,6 +8,9 @@
 
 " Don't focus the window when the mouse pointer is moved.
   set nomousefocus
+
+  set winwidth=100
+  set winheight=25
 
 " Hide mouse pointer on insert mode.
   set mousehide
