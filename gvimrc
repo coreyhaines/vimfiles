@@ -9,8 +9,8 @@
 " Don't focus the window when the mouse pointer is moved.
   set nomousefocus
 
-  set winwidth=100
-  set winheight=25
+  "  set winwidth=100
+  "  set winheight=25
 
 " Hide mouse pointer on insert mode.
   set mousehide
